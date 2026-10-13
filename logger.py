@@ -133,3 +133,4 @@ def log_event(event_type, **details):
         f.write(json.dumps(event) + "\n")
 
     _event_log_initialized = True
+    
